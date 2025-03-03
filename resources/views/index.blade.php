@@ -2,9 +2,12 @@
 @extends('layouts.app')
 @section('title', 'Home Page')
 @section('content')
-        <main>
 
-            <section class="hero-section d-flex justify-content-center align-items-center">
+<main>
+
+            
+    
+    <section class="hero-section d-flex justify-content-center align-items-center">
                 <div class="section-overlay"></div>
 
                 <div class="container">
