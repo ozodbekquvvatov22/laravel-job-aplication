@@ -7,8 +7,9 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>@yield('title','content')</title>
+        <title>@yield(section: 'title','content')</title>
 
+        
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
