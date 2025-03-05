@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>@yield(section: 'title','content')</title>
+        <title>@yield(section: 'title' )</title>
 
         
         <!-- CSS FILES -->
@@ -26,7 +26,7 @@
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="/">
+                <a class="navbar-brand d-flex align-items-center" href=" {{route('index')}} ">
                     <img src={{ asset("images/logo.png") }} class="img-fluid logo-image">
 
                     <div class="d-flex flex-column">
@@ -42,25 +42,25 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-center ms-lg-5">
                         <li class="nav-item">
-                            <a class="nav-link active" href="/">Homepage</a>
+                            <a class="nav-link active" href="{{route ('index')}}">Homepage</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About Gotto</a>
+                            <a class="nav-link" href="{{route ('about')}}">About Gotto</a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/job-listings">Job Listings</a></li>
+                                <li><a class="dropdown-item" href="{{route ('job-listings') }}">Job Listings</a></li>
 
-                                <li><a class="dropdown-item" href="/job-details">Job Details</a></li>
+                                <li><a class="dropdown-item" href="{{route ('job-details') }}">Job Details</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
+                            <a class="nav-link" href="{{route ('contact')}}">Contact</a>
                         </li>
 
                         <li class="nav-item ms-lg-auto">

@@ -15,7 +15,7 @@
 
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="{{route ('index')}}">Home</a></li>
 
                                     <li class="breadcrumb-item active" aria-current="page">About</li>
                                 </ol>
@@ -42,7 +42,7 @@
                                 <div class="d-flex align-items-center mt-4">
                                     <a href="#services-section" class="custom-btn custom-border-btn btn me-4">Explore Services</a>
 
-                                    <a href="contact.html" class="custom-link smoothscroll">Contact</a>
+                                    <a href="{{route ('contact')}}" class="custom-link smoothscroll">Contact</a>
                                 </div>
                             </div>
                         </div>

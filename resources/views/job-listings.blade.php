@@ -14,7 +14,7 @@
 
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="{{route ('index')}}">Home</a></li>
 
                                     <li class="breadcrumb-item active" aria-current="page">Job listings</li>
                                 </ol>
@@ -99,11 +99,11 @@
                                             <span class="text-white mb-lg-0 mb-md-0 me-2">Popular keywords:</span>
 
                                             <div>
-                                                <a href="job-listings.html" class="badge">Web design</a>
+                                                <a href="{{route ('job-listings')}}" class="badge">Web design</a>
 
-                                                <a href="job-listings.html" class="badge">Marketing</a>
+                                                <a href="{{route ('job-listings')}}" class="badge">Marketing</a>
 
-                                                <a href="job-listings.html" class="badge">Customer support</a>
+                                                <a href="{{route ('job-listings')}}" class="badge">Customer support</a>
                                             </div>
                                         </div>
                                     </div>
@@ -155,24 +155,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/it-professional-works-startup-project.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Internship</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Internship</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Freelance</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Freelance</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Technical Lead</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Technical Lead</a>
                                     </h4>
 
                                     <div class="d-flex align-items-center">
@@ -207,7 +207,7 @@
                                             $50k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,24 +216,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/marketing-assistant.jpg" class="job-image img-fluid" alt="marketing assistant">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Senior</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Senior</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Part Time</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Part Time</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Marketing Assistant</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Marketing Assistant</a>
                                     </h4>
 
                                     <div class="d-flex align-items-center">
@@ -268,7 +268,7 @@
                                             $20k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -277,24 +277,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/coding-man.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Junior</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Junior</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Contract</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Contract</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Programmer</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Programmer</a>
                                     </h4>
                                         
                                     <div class="d-flex align-items-center">
@@ -329,7 +329,7 @@
                                             $68k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -338,24 +338,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/pretty-blogger-posing-cozy-apartment.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Junior</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Junior</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Contract</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Contract</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">HR Manager</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">HR Manager</a>
                                     </h4>
 
                                     <div class="d-flex align-items-center">
@@ -390,7 +390,7 @@
                                             $35k - 45k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -399,24 +399,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/paper-analysis.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Entry</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Entry</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Remote</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Remote</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Sales Representative</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Sales Representative</a>
                                     </h4>
                                         
                                     <div class="d-flex align-items-center">
@@ -451,7 +451,7 @@
                                             $20k - 35k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -460,24 +460,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/logo-designer-working-computer-desktop.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Mid Level</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Mid Level</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Full Time</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Full Time</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Graphic Designer</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Graphic Designer</a>
                                     </h4>
                                         
                                     <div class="d-flex align-items-center">
@@ -512,7 +512,7 @@
                                             $20k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -521,24 +521,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/portrait-woman-customer-service-worker.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Senior</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Senior</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Contract</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Contract</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Customer Support</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Customer Support</a>
                                     </h4>
                                         
                                     <div class="d-flex align-items-center">
@@ -573,7 +573,7 @@
                                             $45k - 50k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -582,24 +582,24 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/young-woman-teaching-english-lessons.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Junior</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Junior</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Freelance</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Freelance</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Language Teacher</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Language Teacher</a>
                                     </h4>
                                         
                                     <div class="d-flex align-items-center">
@@ -634,7 +634,7 @@
                                             $85k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
@@ -643,24 +643,24 @@
                          <div class="col-lg-4 col-md-6 col-12">
                             <div class="job-thumb job-thumb-box">
                                 <div class="job-image-box-wrap">
-                                    <a href="job-details.html">
+                                    <a href=" {{route('job-details')}}">
                                         <img src="images/jobs/sound-engineer-working-studio-with-equipment.jpg" class="job-image img-fluid" alt="">
                                     </a>
 
                                     <div class="job-image-box-wrap-info d-flex align-items-center">
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge badge-level">Junior</a>
+                                            <a href="{{route ('job-listings')}}" class="badge badge-level">Junior</a>
                                         </p>
 
                                         <p class="mb-0">
-                                            <a href="job-listings.html" class="badge">Remote</a>
+                                            <a href="{{route ('job-listings')}}" class="badge">Remote</a>
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="job-body">
                                     <h4 class="job-title">
-                                        <a href="job-details.html" class="job-title-link">Sound Engineer</a>
+                                        <a href=" {{route('job-details')}}" class="job-title-link">Sound Engineer</a>
                                     </h4>
                                         
                                     <div class="d-flex align-items-center">
@@ -695,7 +695,7 @@
                                             $20k
                                         </p>
 
-                                        <a href="job-details.html" class="custom-btn btn ms-auto">Apply now</a>
+                                        <a href=" {{route('job-details')}}" class="custom-btn btn ms-auto">Apply now</a>
                                     </div>
                                 </div>
                             </div>
